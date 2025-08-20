@@ -48,3 +48,14 @@ When working on creating or editing pages, **always read `gitbook-guidelines.md`
 - Layout choices and best practices
 - Component usage examples and syntax
 - Never add titles like #Welcome as title is always defined at the top of md file
+
+```
+// Example of embedding mermaid diagrams inside of html
+<div class="language-mermaid">
+    graph TD;
+        A-->B;
+        A-->C;
+        B-->D;
+        C-->D;
+  </div>
+```
