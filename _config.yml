@@ -11,7 +11,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://northgrc.github.io'
-baseurl:          '/processes'
+baseurl:          ''
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -54,11 +54,19 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+  transformation:
+    output: true
+    permalink: /:collection/:path/
+  processes:
+    output: true
+    permalink: /:collection/:path/
 
 ordered_collections:
   - pages
+  - transformation
+  - processes
 
-page_width: 800px
+page_width: 1200px
 
 destination:      ./_site
 incremental:      false

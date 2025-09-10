@@ -38,7 +38,6 @@ flowchart TD
     E --> D
 ```
 
-
 **Step by Step:**
 - **Initiation**
   - **Developer**: Completes feature development and creates thread in `#peer-review` channel with feature details
@@ -77,4 +76,9 @@ To simplify the process, it doesn't matter.
 **Can one person do both peer review and code review?**  
 Yes. The same person can perform both types of reviews, as long as they approach each with the appropriate mindset - technical implementation for code review, user experience for peer review.
 
+## Slack Channel Example
+
+Below is an example of how the peer review request and response process looks in the `#peer-review` Slack channel:
+
+![Peer Review Slack Example](/assets/peer-review-slack-example.png)
 
