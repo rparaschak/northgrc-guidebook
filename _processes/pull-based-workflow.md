@@ -16,13 +16,14 @@ Pull-Based Workflow transforms how teams approach task assignment by shifting fr
 > This approach will break workload distribution table in Jira as tasks in backlog are unassigned. Instead, we should use overviews using components + fix versions to get valid overview.
 {: .block-danger }
 
-## Current State Problems
+## Push-Based vs Pull-Based
 
-❌ **Reduced Ownership** - Less investment in tasks that are imposed rather than chosen  
-❌ **Risk of Inefficient Allocation** - Skills and interests not optimally matched to tasks  
-❌ **Unnecessary Ceremony** - Coordination takes a significant efforts and time  
-❌ **Context Switching** - Members interrupted with assignments regardless of current focus
-
+| Push-Based (Current) | Pull-Based (Future) |
+|---------------------|---------------------|
+| ❌ **Reduced Ownership** - Less investment in tasks that are imposed rather than chosen | ✅ **Higher ownership** - Greater investment in self-selected work |
+| ❌ **Risk of Inefficient Allocation** - Skills and interests not optimally matched to tasks | ✅ **Improved skill utilization** - Members can choose tasks matching their expertise |
+| ❌ **Unnecessary Ceremony** - Coordination takes a significant efforts and time | ✅ **Reduced bottlenecks** - No dependency on coordinator availability |
+| ❌ **Context Switching** - Members interrupted with assignments regardless of current focus | ✅ **Increased autonomy** - Team and Team members have control over their work selection |
 
 ## Process Comparison
 

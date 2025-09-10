@@ -88,9 +88,9 @@ Below are visual examples of how breakdown sessions are conducted:
 ### Story Grouping Example
 This example shows how user stories are grouped and sequenced during high-level breakdown sessions:
 
-![Story Grouping Example](/assets/grouping-example.png)
+![Story Grouping Example]({{ "/assets/grouping-example.png" | relative_url }})
 
 ### Technical Breakdown Example  
 This example demonstrates the detailed breakdown process showing task decomposition and dependencies:
 
-![Breakdown Example](/assets/breakdown-example.png)
+![Breakdown Example]({{ "/assets/breakdown-example.png" | relative_url }})

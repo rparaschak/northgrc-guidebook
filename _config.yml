@@ -10,8 +10,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://northgrc.github.io'
-baseurl:          ''
+url:              'https://rparaschak.github.io'
+baseurl:          '/northgrc-guidebook'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -76,3 +76,9 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      image: true

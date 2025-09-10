@@ -53,9 +53,9 @@ We have developed a strategic plan for the first phase of our transformation jou
 
 | Name | Description |
 |------|-------------|
-| Peer Review | Process where feature or change is reviewed by peer. [Peer Review Process](../processes/peer-review-process/) |
-| Pull Based Work | Instead of coordinator assigning issues to team members, they pull the work from prioritized backlog. |
-| Breakdown Session | When feature comes in from business, entire team break it down using a whiteboard software to reveal scope of work, edge cases and build shared team knowledge around the feature. |
+| [Peer Review](../processes/peer-review-process/) | Process where feature or change is reviewed by peer. |
+| [Pull Based Work](../processes/pull-based-workflow/) | Instead of coordinator assigning issues to team members, they pull the work from prioritized backlog. |
+| [Breakdown Session](../processes/breakdown-sessions/) | When feature comes in from business, entire team break it down using a whiteboard software to reveal scope of work, edge cases and build shared team knowledge around the feature. |
 
 ### Frontend
 
@@ -72,4 +72,4 @@ We have developed a strategic plan for the first phase of our transformation jou
 | Name | Description |
 |------|-------------|
 | AI Code Review | Automated peer review by claude code. Integrated into github actions. Check areas: Acceptance Criteria from Jira, Code Guidelines check, potential bugs. |
-| Automated Tests integration into deployment pipeline | Smoke should be run on each commit into feature branch. Full test is run in feature branch merge into trunk(test) |
+| [Automated Tests integration into deployment pipeline](../processes/deployment-pipeline/) | Smoke should be run on each commit into feature branch. Full test is run in feature branch merge into trunk(test). |

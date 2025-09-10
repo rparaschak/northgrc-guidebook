@@ -80,5 +80,5 @@ Yes. The same person can perform both types of reviews, as long as they approach
 
 Below is an example of how the peer review request and response process looks in the `#peer-review` Slack channel:
 
-![Peer Review Slack Example](/assets/peer-review-slack-example.png)
+![Peer Review Slack Example]({{ "/assets/peer-review-slack-example.png" | relative_url }})
 
