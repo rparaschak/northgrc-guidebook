@@ -51,11 +51,12 @@ We have developed a strategic plan for the first phase of our transformation jou
 
 ### Process
 
-| Name | Description |
-|------|-------------|
-| [Peer Review](../processes/peer-review-process/) | Process where feature or change is reviewed by peer. |
-| [Pull Based Work](../processes/pull-based-workflow/) | Instead of coordinator assigning issues to team members, they pull the work from prioritized backlog. |
+| Name                                          | Description                                                                                                                                                                        |
+|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Peer Review](../processes/peer-review-process/) | Process where feature or change is reviewed by peer.                                                                                                                               |
+| [Pull Based Work](../processes/pull-based-workflow/) | Instead of coordinator assigning issues to team members, they pull the work from prioritized backlog.                                                                              |
 | [Breakdown Session](../processes/breakdown-sessions/) | When feature comes in from business, entire team break it down using a whiteboard software to reveal scope of work, edge cases and build shared team knowledge around the feature. |
+| Dedicated time for Technical Debt | Teams have dedicated time to work on technical debt and improvements each sprint.                                                                                                  |
 
 ### Frontend
 
