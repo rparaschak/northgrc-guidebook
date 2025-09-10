@@ -54,6 +54,10 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+  theory:
+    output: true
+    permalink: /:collection/:path/
+    sort_by: order
   transformation:
     output: true
     permalink: /:collection/:path/
@@ -63,6 +67,7 @@ collections:
 
 ordered_collections:
   - pages
+  - theory
   - transformation
   - processes
 
