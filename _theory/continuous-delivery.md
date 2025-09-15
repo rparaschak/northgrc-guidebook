@@ -53,15 +53,6 @@ order: 2
 > - **40% overall reduction** in development costs
 {: .block-tip }
 
-> ##### Amazon Story
->
-> **The Performance Standard:**
-> - **Around 23,000 deployments daily** across all services
-> - **Dramatically reduced lead times** from code check-in to production
-> - **Automated deployment processes** eliminating manual delays
->
-> **Business Impact:** Enables **hundreds of millions in business value** through rapid feature delivery, market responsiveness, and reduced time-to-value.
-{: .block-tip }
 
 > ##### The Cost of Delays
 >
