@@ -129,92 +129,25 @@ mindmap
       Transformational Leadership
 </div>
 
-### Continuous Delivery
-{:.no_toc}
-
-Teams achieve **46x higher deployment frequency**, **2,555x faster lead times**, **60% fewer production failures**, and **2x higher profitability**.
-
-- **Version Control**: All production artifacts under version control
-- **Deployment Automation**: Fully automated deployment process  
-- **Continuous Integration**: Code integrated and tested continuously
-- **Trunk-based Development**: Short-lived branches, frequent integration
-- **Test Automation**: Comprehensive automated test suites
-- **Test Data Management**: Adequate test data for all environments
-- **Shift Left Security**: Security integrated throughout delivery process
-
-### Architecture
-{:.no_toc}
-
-Enables **3x faster feature delivery** and **75% reduction in cross-team dependencies**.
-
-- **Loosely Coupled Architecture**: Teams can work independently without coordination overhead
-- **Empowered Teams**: Teams choose their own tools and make technical decisions autonomously
-
-### Product and Process
-{:.no_toc}
-
-Organizations achieve **2x higher likelihood of exceeding profitability targets**, **40% more customer value**, and **60% faster time-to-market**.
-
-- **Customer Feedback**: Active gathering and incorporation of user feedback to drive product decisions
-- **Value Stream**: Work flows efficiently from business idea to customer value
-- **Working in Small Batches**: Frequent delivery of small, testable changes
-- **Team Experimentation**: Teams can try new approaches and learn from failures quickly
-
-### Lean Management
-{:.no_toc}
-
-Creates **50% lower burnout rates**, **2x higher delivery performance**, and **35% faster lead times**.
-
-- **Change Approval Process**: Lightweight, peer-review based approvals that don't slow delivery
-- **Monitoring**: Comprehensive system and business monitoring for rapid problem detection
-- **Proactive Notification**: Proactive alerting on system health before users are impacted
-- **WIP Limits**: Limiting work in progress to improve flow and reduce context switching
-- **Visualizing Work**: Making work and workflow visible to identify bottlenecks and optimize flow
-
-### Culture
-{:.no_toc}
-
-The strongest performance predictor, driving **30% higher performance** across all metrics, **2.2x higher profitability**, and **50% lower employee turnover**.
-
-- **Westrum Organizational Culture**: High-trust, information-sharing culture where failure leads to learning
-- **Support Learning**: Organization actively invests in learning, development, and skill building
-- **Collaboration Among Teams**: Cross-functional collaboration is the norm, not the exception
-- **Job Satisfaction**: Team members are genuinely satisfied and engaged with their work
-- **Transformational Leadership**: Leaders inspire, support, and develop their teams rather than micromanaging
+| **Category** | **Impact** | **Components** |
+|--------------|------------|----------------|
+| **Continuous Delivery** | Teams achieve **46x higher deployment frequency**, **2,555x faster lead times**, **60% fewer production failures**, and **2x higher profitability** | • Version Control<br/>• Deployment Automation<br/>• Continuous Integration<br/>• Trunk-based Development<br/>• Test Automation<br/>• Test Data Management<br/>• Shift Left Security |
+| **Architecture** | Enables **3x faster feature delivery** and **75% reduction in cross-team dependencies** | • Loosely Coupled Architecture<br/>• Empowered Teams |
+| **Product and Process** | Organizations achieve **2x higher likelihood of exceeding profitability targets**, **40% more customer value**, and **60% faster time-to-market** | • Customer Feedback<br/>• Value Stream<br/>• Working in Small Batches<br/>• Team Experimentation |
+| **Lean Management** | Creates **50% lower burnout rates**, **2x higher delivery performance**, and **35% faster lead times** | • Change Approval Process<br/>• Monitoring<br/>• Proactive Notification<br/>• WIP Limits<br/>• Visualizing Work |
+| **Culture** | The strongest performance predictor, driving **30% higher performance** across all metrics, **2.2x higher profitability**, and **50% lower employee turnover** | • Westrum Organizational Culture<br/>• Support Learning<br/>• Collaboration Among Teams<br/>• Job Satisfaction<br/>• Transformational Leadership |
 
 ## The 5 Critical Performance Enablers
 
 Based on DORA research, these **5 capabilities have the highest impact** on software engineering performance:
 
-### 1. Test Automation & Continuous Integration
-**Impact:** **2,555x faster lead times**, **60% fewer production failures**
-- Test automation is the foundation that makes CI/CD possible
-- Without comprehensive automated testing, teams cannot deploy confidently or frequently
-- Elite performers run thousands of automated tests per deployment
-
-### 2. Trunk-based Development
-**Impact:** Core driver of **2,555x faster lead times**
-- Eliminates merge conflicts and integration delays
-- Enables small batch sizes that reduce risk
-- Essential for continuous integration to function effectively
-
-### 3. Loosely Coupled Architecture
-**Impact:** **3x faster feature delivery**, **75% reduction in cross-team dependencies**
-- Allows teams to work independently without coordination bottlenecks
-- The architectural foundation for autonomous team deployment
-- Enables linear team scaling without communication overhead
-
-### 4. Comprehensive Monitoring
-**Impact:** **2,604x faster recovery times**
-- Essential for production confidence that enables frequent deployment
-- Differentiates elite performers (minutes) from low performers (weeks)
-- Foundation for proactive problem detection and rapid response
-
-### 5. Westrum Organizational Culture
-**Impact:** **Strongest performance predictor** - **30% higher performance**, **2.2x higher profitability**
-- Creates psychological safety for experimentation and learning from failure
-- Foundation that makes all technical practices sustainable
-- Without it, teams revert to risk-averse, low-performance behaviors
+| **Enabler** | **Impact** | **Key Benefits** |
+|-------------|------------|------------------|
+| **Test Automation & Continuous Integration** | **2,555x faster lead times**, **60% fewer production failures** | • Test automation is the foundation that makes CI/CD possible<br/>• Without comprehensive automated testing, teams cannot deploy confidently or frequently<br/>• Elite performers run thousands of automated tests per deployment |
+| **Trunk-based Development** | Core driver of **2,555x faster lead times** | • Eliminates merge conflicts and integration delays<br/>• Enables small batch sizes that reduce risk<br/>• Essential for continuous integration to function effectively |
+| **Loosely Coupled Architecture** | **3x faster feature delivery**, **75% reduction in cross-team dependencies** | • Allows teams to work independently without coordination bottlenecks<br/>• The architectural foundation for autonomous team deployment<br/>• Enables linear team scaling without communication overhead |
+| **Comprehensive Monitoring** | **2,604x faster recovery times** | • Essential for production confidence that enables frequent deployment<br/>• Differentiates elite performers (minutes) from low performers (weeks)<br/>• Foundation for proactive problem detection and rapid response |
+| **Westrum Organizational Culture** | **Strongest performance predictor** - **30% higher performance**, **2.2x higher profitability** | • Creates psychological safety for experimentation and learning from failure<br/>• Foundation that makes all technical practices sustainable<br/>• Without it, teams revert to risk-averse, low-performance behaviors |
 
 These 5 enablers create a **compounding effect** - culture enables technical adoption, architecture allows independence, trunk-based development enables CI/CD, test automation provides deployment confidence, and monitoring ensures rapid recovery.
 
