@@ -117,23 +117,24 @@ Agent.
 
 ## Summary Table
 
-| Initiative                 | Responsible                                  | Done |
-|----------------------------|----------------------------------------------|------|
-| **Tests Automation**       |                                              |      |
-| Test Development           | Frontend Team                                |      |
-| Existing Tests Migration   | Frontend Team + Illia (Andreea coordination) |
-| Tests Pipeline Integration | Frontend Team                                |      |
-| **Frontend Improvements**  |                                              |      |
-| TypeScript Integration     | Frontend Team                                |      |
-| ESLint cleanup             | Frontend Team                                |      |
-| TSLint setup               | Frontend Team                                |      |
-| Linters commit hook setup  | Frontend Team                                |      |
-| Module-based Structure     | Frontend Team                                |      |
-| **Processes**              |                                              |      |
-| Breakdown Sessions         | Entire Team                                  |      |
-| Peer Review                | Entire Team                                  |      |
-| Bi-Weekly Retrospectives   | Entire Team                                  |      |
-| Pull-based Work (TBD)      |                                              |      |
-| **AI Assistance**          |                                              |      |
-| AI Code Review             | Roman                                        |      |
-| AI Coding Assistance       | Roman                                        |      |
+| Initiative                    | Responsible                                  | Definition of Done                                                                                                                                                    | Done |
+|-------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| **Tests Automation**          |                                              |                                                                                                                                                                       |
+| Test Development              | Frontend Team                                | All features delivered with auto tests. Features that depend on other features are also covered by auto tests. Testing time of new features is significantly reduced. |
+| Existing Tests Migration      | Frontend Team + Illia (Andreea coordination) | At least 100 tests are migrated                                                                                                                                       |
+| Smoke Tests in Feature Branch | Frontend Team                                | Smoke test suite is running on push in feature branch. Quality Report is generated.                                                                                   |
+| Full Tests in Test Branch     | Frontend Team                                | Full test suite is running on feature branch merge. Quality Report is generated.                                                                                      |
+| **Frontend Improvements**     |                                              |                                                                                                                                                                       |
+| TypeScript Integration        | Frontend Team                                | First feature is developed using typescript. All feature dependencies are covered with strong types.                                                                  |
+| ESLint cleanup                | Frontend Team                                | 0 ESLint warnings.                                                                                                                                                    |
+| TSLint setup                  | Frontend Team                                | TSLinter is setup and is used in CI pipeline.                                                                                                                         |
+| Linters commit hook setup     | Frontend Team                                | Developer can not commit if there are Linter warnings.                                                                                                                |
+| Module-based Structure        | Frontend Team                                | First feature is developed using module-based structure. Guidelines document is generated.                                                                            |
+| **Processes**                 |                                              |                                                                                                                                                                       |
+| Breakdown Sessions            | Entire Team                                  | No big or small features are developed without breakdown session.                                                                                                     |
+| Peer Review                   | Entire Team                                  | All code changes go through Peer Review.                                                                                                                              |
+| Bi-Weekly Retrospectives      | Entire Team                                  | Recurring meeting is setup. After each meeting we have a document outlining our actions, responsible person and deadline.                                             |
+| Pull-based Work (TBD)         | Roman, Andreea, Taras                        | Backlog is groomed and prioritized. Developers pull tasks from backlog. Business have an overview of work progress and estimates.                                     |
+| **AI Assistance**             |                                              |                                                                                                                                                                       |
+| AI Code Review                | Roman                                        | Tool that that runs a) Locally b) In CI Pipeline checking: a) Code Quality b) Potential bugs c) Compliance with Jira acceptance criteria                              |
+| AI Coding Assistance          | Roman                                        | Team is using AI coding agents to improve their work. Team has all necessary tools from business.                                                                     |
