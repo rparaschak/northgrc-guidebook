@@ -1,5 +1,5 @@
 ---
-title: Q1 Transformation Plan
+title: Q4 Transformation Plan
 author: NorthGRC Team
 date: 2025-09-10
 category: Transformation
@@ -89,7 +89,7 @@ approach to reduce dependency chaos. This structure also helps AI work with the 
 ##### Breakdown Sessions
 
 Before each feature, we hold breakdown sessions ([reference to process page](../processes/breakdown-sessions/)) with the
-entire team to better understand the scope of work. During Q1, we improve this process to tailor it for team needs.
+entire team to better understand the scope of work. During Q4, we improve this process to tailor it for team needs.
 
 ##### Peer Review
 
